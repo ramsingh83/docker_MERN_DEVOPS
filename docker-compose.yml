@@ -1,11 +1,7 @@
-version: "3.8"
+version: "2"
 services:
     client:
-<<<<<<< HEAD
-        image: alpine-node:10.15.3
-=======
-        image: mhart/alpine-node:10.8.0
->>>>>>> 191e7d476ebecf83804c9b4eb7e10afc2b75f510
+        image: webapp
         restart: always
         ports:
             - "3000:3000"
