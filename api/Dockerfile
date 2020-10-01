@@ -1,5 +1,5 @@
 # Use a lighter version of Node as a parent image
-FROM FROM node:10.15.3
+FROM node:10.15.3
 
 # Set the working directory to /api
 WORKDIR /api
